@@ -6,8 +6,10 @@ import PackageDescription
 let package = Package(
     name: "CoreMLHelpers",
     platforms: [
-        .iOS(.v15),
-        .macOS(.v12)
+        .iOS(.v11),
+        .macOS(.v12),
+        .tvOS(.v11),
+        .watchOS(.v6)
     ],
     products: [
         .library(
