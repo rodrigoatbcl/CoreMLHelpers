@@ -33,3 +33,5 @@ Pods/
 .Spotlight-V100
 *.swp
 *.lock
+
+swiftpm/xcode
